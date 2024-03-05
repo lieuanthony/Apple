@@ -11,9 +11,6 @@
 		1235A1A62B96D8E900D1240E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235A1A52B96D8E900D1240E /* ContentView.swift */; };
 		1235A1A82B96D8EB00D1240E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1235A1A72B96D8EB00D1240E /* Assets.xcassets */; };
 		1235A1AB2B96D8EB00D1240E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1235A1AA2B96D8EB00D1240E /* Preview Assets.xcassets */; };
-		1235A1B52B96D8EC00D1240E /* EmojiLoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235A1B42B96D8EC00D1240E /* EmojiLoverTests.swift */; };
-		1235A1BF2B96D8EC00D1240E /* EmojiLoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235A1BE2B96D8EC00D1240E /* EmojiLoverUITests.swift */; };
-		1235A1C12B96D8EC00D1240E /* EmojiLoverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235A1C02B96D8EC00D1240E /* EmojiLoverUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		1235A1A72B96D8EB00D1240E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1235A1AA2B96D8EB00D1240E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1235A1B02B96D8EC00D1240E /* EmojiLoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiLoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1235A1B42B96D8EC00D1240E /* EmojiLoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLoverTests.swift; sourceTree = "<group>"; };
 		1235A1BA2B96D8EC00D1240E /* EmojiLoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiLoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1235A1BE2B96D8EC00D1240E /* EmojiLoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLoverUITests.swift; sourceTree = "<group>"; };
-		1235A1C02B96D8EC00D1240E /* EmojiLoverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLoverUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				1235A1A22B96D8E900D1240E /* EmojiLover */,
-				1235A1B32B96D8EC00D1240E /* EmojiLoverTests */,
-				1235A1BD2B96D8EC00D1240E /* EmojiLoverUITests */,
 				1235A1A12B96D8E900D1240E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				1235A1AA2B96D8EB00D1240E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		1235A1B32B96D8EC00D1240E /* EmojiLoverTests */ = {
-			isa = PBXGroup;
-			children = (
-				1235A1B42B96D8EC00D1240E /* EmojiLoverTests.swift */,
-			);
-			path = EmojiLoverTests;
-			sourceTree = "<group>";
-		};
-		1235A1BD2B96D8EC00D1240E /* EmojiLoverUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1235A1BE2B96D8EC00D1240E /* EmojiLoverUITests.swift */,
-				1235A1C02B96D8EC00D1240E /* EmojiLoverUITestsLaunchTests.swift */,
-			);
-			path = EmojiLoverUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1235A1B52B96D8EC00D1240E /* EmojiLoverTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1235A1C12B96D8EC00D1240E /* EmojiLoverUITestsLaunchTests.swift in Sources */,
-				1235A1BF2B96D8EC00D1240E /* EmojiLoverUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
